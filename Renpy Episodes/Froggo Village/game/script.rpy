@@ -1,6 +1,6 @@
 ﻿#MAIN SCRIPT
 
-label start
+label start:
 
 #CHAPTER 2 - Hoppos Hut
 call hopposHut

@@ -12,8 +12,8 @@ image bg hopposHut = "images/Chapter-2/Backgrounds/hoppos-hut-final.png"
 
 #CHARACTER
 # 'image' tells Ren'Py which tag to look for
-define hoppo = Character("Hoppo", image="hoppo")
-
+#define hoppo = Character("", image="hoppo")
+define hoppo = Character("")
 #PORTRAITS
 
 # Define the actual side image
@@ -51,7 +51,8 @@ image hoppo_idle_front:
     repeat # Loops the animation
 
 #WALKING ANIMATIONS
-image hoppo_walk_right:"images/Chapter-2/Characters/Hoppo/Walk Animations/froggo-right-walk.png"
+image hoppo_walk_right:
+    "images/Chapter-2/Characters/Hoppo/Walk Animations/froggo-right-walk.png"
     
     # Frame 1
     crop (0, 0, 192,  192)
