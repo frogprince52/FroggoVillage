@@ -12,8 +12,8 @@ image bg hopposHut = "images/Chapter-2/Backgrounds/hoppos-hut-final.png"
 
 #CHARACTER
 # 'image' tells Ren'Py which tag to look for
-#define hoppo = Character("", image="hoppo")
-define hoppo = Character("")
+define hoppo = Character("", image="hoppo")
+#define hoppo = Character("")
 #PORTRAITS
 
 # Define the actual side image

@@ -57,19 +57,19 @@ define gui.interface_text_color = '#ffffff'
 ## Fonts and Font Sizes ########################################################
 
 ## The font used for in-game text.
-define gui.text_font = "DejaVuSans.ttf"
+define gui.text_font = "fonts/VT323/VT323-Regular.ttf"
 
 ## The font used for character names.
-define gui.name_text_font = "DejaVuSans.ttf"
+define gui.name_text_font = "fonts/VT323/VT323-Regular.ttf"
 
 ## The font used for out-of-game text.
-define gui.interface_text_font = "DejaVuSans.ttf"
+define gui.interface_text_font = "fonts/VT323/VT323-Regular.ttf"
 
 ## The size of normal dialogue text.
-define gui.text_size = 22
+define gui.text_size = 32
 
 ## The size of character names.
-define gui.name_text_size = 30
+define gui.name_text_size = 28
 
 ## The size of text in the game's user interface.
 define gui.interface_text_size = 22
@@ -134,7 +134,7 @@ define gui.dialogue_xpos = 400
 define gui.dialogue_ypos = 50
 
 ## The maximum width of dialogue text, in pixels.
-define gui.dialogue_width = 744
+define gui.dialogue_width = 650
 
 ## The horizontal alignment of the dialogue text. This can be 0.0 for left-
 ## aligned, 0.5 for centered, and 1.0 for right-aligned.
@@ -143,6 +143,10 @@ define gui.dialogue_text_xalign = 0.0
 ## The horizontal and vertical alignment of the side image.
 define gui.side_image_xalign = 0.0
 define gui.side_image_yalign = 1.0
+
+#Size of the side image
+define gui.side_image_width = 150  # Adjust this number to fit your box
+define gui.side_image_height = 150
 
 
 ## Buttons #####################################################################
@@ -482,3 +486,4 @@ init python:
 
         gui.nvl_button_width = 1240
         gui.nvl_button_xpos = 20
+

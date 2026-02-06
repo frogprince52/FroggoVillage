@@ -1,4 +1,12 @@
-﻿################################################################################
+﻿#SPECIAL FUNCTION FOR SIDE IMAGES
+transform side_icon_size:
+    xsize 135
+    ysize 135
+    yalign 1.0
+    xoffset 220  #Positioning modifier
+    yoffset -30
+
+################################################################################
 ## Initialization
 ################################################################################
 
@@ -99,6 +107,8 @@ screen say(who, what):
 
     window:
         id "window"
+   
+        add SideImage() at side_icon_size
 
         if who is not None:
 
@@ -112,8 +122,8 @@ screen say(who, what):
 
     ## If there's a side image, display it above the text. Do not display on the
     ## phone variant - there's no room.
-    if not renpy.variant("small"):
-        add SideImage() xalign 0.0 yalign 1.0
+    #if not renpy.variant("small"):
+    #    add SideImage() xalign 0.0 yalign 1.0
 
 
 ## Make the namebox available for styling through the Character object.
@@ -1620,3 +1630,6 @@ style slider_vbox:
 style slider_slider:
     variant "small"
     xsize 600
+
+
+            

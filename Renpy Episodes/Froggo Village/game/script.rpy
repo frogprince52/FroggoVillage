@@ -1,4 +1,5 @@
-﻿#MAIN SCRIPT
+﻿
+#MAIN SCRIPT
 
 label start:
 
