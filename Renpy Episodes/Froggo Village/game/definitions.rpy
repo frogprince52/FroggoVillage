@@ -2,17 +2,57 @@
 
 #MUSIC
 
-#SPEECH SOUND
+
 
 
 #BACKGROUNDS FOR SCENES
+
+#HOPPO'S HUT
 image bg hopposHut = "images/Chapter-2/Backgrounds/hoppos-hut-final.png"
+image mossyMatress = "images/Chapter-2/Assets/Hoppo's Hut/mossy-matress.png"
+image mysteriousPainting = "images/Chapter-2/Assets/Hoppo's Hut/mysterious-painting.png"
+image tallCabinet = "images/Chapter-2/Assets/Hoppo's Hut/tall-cabinet.png"
+image dinoNuggyPile = "images/Chapter-2/Assets/Hoppo's Hut/dino-nuggy-pile.png"
+image lightFlyJar:
+    "images/Chapter-2/Assets/Hoppo's Hut/light-fly-jar.png"
+
+    #FRAME 1
+    crop (0, 0, 96, 96)
+    0.3
+
+    #FRAME 2
+    crop (96, 0, 96, 96) # Changed from 192
+    0.3
+
+    #FRAME 3
+    crop (192, 0, 96, 96) # Changed from 288
+    0.3
+
+    #FRAME 4
+    crop (288, 0, 96, 96) # Changed from 384
+    0.3
+    
+    repeat
 
 #HOPPO
 
+#SPEECH SOUND (CALLBACKS)
+init python:
+    def callbackH(event, interact=True, **kwargs):
+        if not interact:
+            return
+
+        if event == "show":
+            # Start playing the sound on a loop when text appears
+            renpy.sound.play("audio/Chapter-2/Speech sounds/hoppo-speech.wav", loop=True)
+            
+        elif event == "slow_done" or event == "end":
+            # Stop the sound immediately when typing finishes or user clicks
+            renpy.sound.stop()
+
 #CHARACTER
 # 'image' tells Ren'Py which tag to look for
-define hoppo = Character("", image="hoppo")
+define hoppo = Character("", image="hoppo", callback=callbackH)
 #define hoppo = Character("")
 #PORTRAITS
 
