@@ -45,6 +45,8 @@ hoppo "I have to go check it out just in case a fellow froggo is in trouble."
 
 hoppo "Better have a look around my hut and check my things before I head out, though."
 
+window hide
+
 #Hoppo moves to the dino nuggy pile, with an excited face says their line
 show hoppo walk right:
     # We start him at his current position
@@ -66,13 +68,11 @@ pause 1.0
 #Then make Hoppo stop infront of them
 show hoppo idle front
 #Change hoppos side image to happy
-
-window hide
-
 pause
 
 #Change hoppos side image to happy
-hoppo happy "A pile of dino nuggies I got from the others froggos at Froggert’s Pub. I'll definitely have those for a snack when I come back."
+hoppo happy "A pile of dino nuggies I got from the others froggos at Froggert’s Pub."
+hoppo happy "I'll definitely have those for a snack when I come back."
 
 #Then Hoppo turns back and walks to the tall cabinet
 show hoppo walk back:
@@ -92,6 +92,19 @@ hoppo thinking "If it didn't belong to a froggo, then who was living here before
  
 pause
 
-#Then 
+#Then hopp turns and hopps right again and turns to the mysterious painting
+show hoppo walk right:
+    xalign 0.42 yalign 0.32
+    linear 3.0 xalign 0.55
+
+pause 3.0
+
+show hoppo idle back 
+
+pause
+
+hoppo thinking "Since I moved in yesterday, I’ve had a strange feeling about this painting."
+hoppo thinking "It’s clearly a froggo, but the golden color is something I’ve never seen before."
+hoppo thinking "It looks ancient, but I can’t see the face at all it looks like it was ripped off."
 
 return
