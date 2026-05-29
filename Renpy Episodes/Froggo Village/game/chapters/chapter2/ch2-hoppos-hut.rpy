@@ -39,11 +39,11 @@ show hoppo idle front:
 #next session, place hoppo and work on diaologue and positioning
 pause
 
-hoppo "Ahhh, I'm still so sleepy... but I'm sure I heard a croak for help. "
+hoppo neutral "Ahhh, I'm still so sleepy... but I'm sure I heard a croak for help. "
 
-hoppo "I have to go check it out just in case a fellow froggo is in trouble."
+hoppo neutral "I have to go check it out just in case a fellow froggo is in trouble."
 
-hoppo "Better have a look around my hut and check my things before I head out, though."
+hoppo neutral "Better have a look around my hut and check my things before I head out, though."
 
 window hide
 
@@ -70,9 +70,15 @@ show hoppo idle front
 #Change hoppos side image to happy
 pause
 
+#Change diologue box positionig so it moves up
+$ dialogue_yalign = 0.1
+
 #Change hoppos side image to happy
 hoppo happy "A pile of dino nuggies I got from the others froggos at Froggert’s Pub."
 hoppo happy "I'll definitely have those for a snack when I come back."
+
+# Resetting Diologue Box
+$ dialogue_yalign = 0.9
 
 #Then Hoppo turns back and walks to the tall cabinet
 show hoppo walk back:
@@ -95,7 +101,7 @@ pause
 #Then hopp turns and hopps right again and turns to the mysterious painting
 show hoppo walk right:
     xalign 0.42 yalign 0.32
-    linear 3.0 xalign 0.55
+    linear 3.0 xalign 0.59
 
 pause 3.0
 
@@ -106,5 +112,45 @@ pause
 hoppo thinking "Since I moved in yesterday, I’ve had a strange feeling about this painting."
 hoppo thinking "It’s clearly a froggo, but the golden color is something I’ve never seen before."
 hoppo thinking "It looks ancient, but I can’t see the face at all it looks like it was ripped off."
+
+pause
+
+#Change diologue box positionig so it moves up
+$ dialogue_yalign = 0.1
+
+#Hoppo turns facing the viewer and hops towards the light fly jar
+show hoppo idle front
+
+show hoppo walk front:
+    xalign 0.59 yalign 0.32
+    linear 3.0 yalign 0.50
+
+pause 3.0
+
+show hoppo idle front 
+
+hoppo neutral "I caught these lightflies to brighten up the hut. They used to fly away whenever I opened the jar."
+hoppo neutral "But I managed to train them to stay inside by feeding them chunks of my dino nuggies."
+
+pause
+
+$ dialogue_yalign = 0.9
+
+show hoppo idle right
+
+pause
+
+show hoppo walk right:
+    xalign 0.59 yalign 0.50
+    linear 3.0 xalign 0.65
+
+pause 2.0
+
+hoppo neutral "Well, everything looks in order. It’s time to leave my mossy abode."
+hoppo neutral "I wonder what adventures await for me beyond that door!"
+
+pause
+
+#END OF SCENE
 
 return

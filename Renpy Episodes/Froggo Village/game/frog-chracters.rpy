@@ -1,9 +1,4 @@
-#DEFINE ALL ASSETS NEEDED FOR FROGGO VILLAGE
-
-#MUSIC
-
-
-
+#DEFINE ALL ASSETS REPRESENTING FROGGO CHARCTERS
 
 #BACKGROUNDS FOR SCENES
 
@@ -58,10 +53,11 @@ define hoppo = Character("", image="hoppo_side", callback=callbackH)
 
 # Define the actual side image
 # The naming convention 'side [tag] [attribute]' is vital
-image side hoppo_side = "images/Chapter-2/Characters/Hoppo/Portraits/hoppo-portrait-default.png"
+image side hoppo_side neutral = "images/Chapter-2/Characters/Hoppo/Portraits/hoppo-portrait-default.png"
 image side hoppo_side happy = "images/Chapter-2/Characters/Hoppo/Portraits/hoppo-portrait-happy.png"
 image side hoppo_side thinking = "images/Chapter-2/Characters/Hoppo/Portraits/hoppo-portrait-thinking.png"
 #Clarifying relationship
+image hoppo neutral = "hoppo idle front"
 image hoppo happy = "hoppo idle front"
 image hoppo thinking = "hoppo idle front"
 
@@ -121,6 +117,35 @@ image hoppo idle back:
     0.25
     
     repeat # Loops the animation
+
+image hoppo idle right:
+    "images/Chapter-2/Characters/Hoppo/Idle Animations/froggo-idle-right.png"
+    
+    # Frame 1: (x-start, y-start, width, height)
+    crop (0, 0, 192, 192)
+    0.25 # Time to show this frame
+    
+    # Frame 2: Move x over by the width of one frame
+    crop (192, 0, 192,  192)
+    0.25
+    
+    # Frame 3: Move x over again
+    crop (384, 0, 192,  192)
+    0.25
+    
+    # Frame 4
+    crop (576, 0, 192,  192)
+    0.25
+    # Frame 5
+    crop (768, 0, 192,  192)
+    0.25
+
+    # Frame 6
+    crop (960, 0, 192,  192)
+    0.25
+    
+    repeat
+
 #WALKING ANIMATIONS
 
 image hoppo walk front:

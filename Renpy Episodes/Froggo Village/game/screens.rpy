@@ -12,6 +12,8 @@ transform side_icon_size:
 
 init offset = -1
 
+# 1. Use 'default' to create the variable on its own line. No '$' and no ';'
+default dialogue_yalign = 0.9
 
 ################################################################################
 ## Styles
@@ -103,10 +105,12 @@ style frame:
 ##
 ## https://www.renpy.org/doc/html/screen_special.html#say
 
+# 2. Start the screen on a fresh line
 screen say(who, what):
 
     window:
         id "window"
+        yalign dialogue_yalign  # This will read the variable
    
         add SideImage() at side_icon_size
 
