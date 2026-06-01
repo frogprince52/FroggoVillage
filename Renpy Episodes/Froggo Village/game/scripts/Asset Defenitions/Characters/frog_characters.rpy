@@ -1,12 +1,5 @@
 #DEFINE ALL ASSETS REPRESENTING FROGGO CHARCTERS
 
-#BACKGROUNDS FOR SCENES
-
-#HOPPO'S HUT
-
-
-
-
 #SPEECH SOUND (CALLBACKS)
 init python:
     def callbackH(event, interact=True, **kwargs):
