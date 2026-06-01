@@ -2,14 +2,12 @@
 #CHAPTER 2 ASSETS
 
 #HOPPO's HUT Assets
-
-image bg hopposHut = "images/Chapter-2/Backgrounds/hoppos-hut-final.png"
-image mossyMatress = "images/Chapter-2/Assets/Hoppo's Hut/mossy-matress.png"
-image mysteriousPainting = "images/Chapter-2/Assets/Hoppo's Hut/mysterious-painting.png"
-image tallCabinet = "images/Chapter-2/Assets/Hoppo's Hut/tall-cabinet.png"
-image dinoNuggyPile = "images/Chapter-2/Assets/Hoppo's Hut/dino-nuggy-pile.png"
+image mossyMatress = ""
+image mysteriousPainting = ""
+image tallCabinet = ""
+image dinoNuggyPile = ""
 image lightFlyJar:
-    "images/Chapter-2/Assets/Hoppo's Hut/light-fly-jar.png"
+    ""
 
     #FRAME 1
     crop (0, 0, 96, 96)
