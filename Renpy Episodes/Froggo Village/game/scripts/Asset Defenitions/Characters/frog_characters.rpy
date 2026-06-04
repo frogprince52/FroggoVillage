@@ -10,7 +10,7 @@ init python:
 
         if event == "show":
             # Start playing the sound on a loop when text appears
-            renpy.sound.play("audio/Chapter-2/Speech sounds/hoppo-speech.wav", loop=True)
+            renpy.sound.play("audio/Chapter-2/Speech sounds/soft-speech.wav", loop=True)
             
         elif event == "slow_done" or event == "end":
             # Stop the sound immediately when typing finishes or user clicks
@@ -23,20 +23,20 @@ init python:
 
         if event == "show":
             # Start playing the sound on a loop when text appears
-            renpy.sound.play("audio/Chapter-2/Speech sounds/hoppo-speech.wav", loop=True)
+            renpy.sound.play("audio/Chapter-2/Speech sounds/default-speech.wav", loop=True)
             
         elif event == "slow_done" or event == "end":
             # Stop the sound immediately when typing finishes or user clicks
             renpy.sound.stop()
 
     #PEBBLE VOICE
-    def callbackPebbleHarsh(event, interact=True, **kwargs):
+    def callbackLower(event, interact=True, **kwargs):
         if not interact:
             return
 
         if event == "show":
             # Start playing the sound on a loop when text appears
-            renpy.sound.play("", loop=True)
+            renpy.sound.play("audio/Chapter-2/Speech sounds/deeper-speech.wav", loop=True)
             
         elif event == "slow_done" or event == "end":
             # Stop the sound immediately when typing finishes or user clicks
@@ -46,7 +46,7 @@ init python:
 
 #CHARACTER
 # 'image' tells Ren'Py which tag to look for
-define hoppo = Character("", image="hoppo_side", callback=callbackMediumHarshness)
+define hoppo = Character("", image="hoppo_side", callback=callbackMedium)
 #define hoppo = Character("")
 #PORTRAITS
 
@@ -277,7 +277,7 @@ image hoppo walk left:
 
 
 #PEBBLE DEFENITIONS
-define pebble = Character("", image="pebble_side", callback=callbackPebble)
+define pebble = Character("", image="pebble_side", callback=callbackLower)
 
 image side pebble_side neutral = "raw assets/Chapter 2/Characters/Pebble/Portraits/pebble-portrait-default.png"
 image side pebble_side happy = "raw assets/Chapter 2/Characters/Pebble/Portraits/pebble-portrait-happy.png"
@@ -726,7 +726,7 @@ image spotty walk left:
     repeat
 
 #ELDER CROAKUS ASSETS
-define elder = Character("", image="elder_side", callback=callbackHarsh)
+define elder = Character("", image="elder_side", callback=callbackMedium)
 
 image side elder_side neutral = "raw assets/Chapter 2/Characters/Elder Croakus/Portraits/elder-portrait-default.png"
 image side elder_side serious = "raw assets/Chapter 2/Characters/Elder Croakus/Portraits/elder-portrait-serious.png"
@@ -816,7 +816,7 @@ image elder walk left:
 
 
 #MOSSBIT ASSETS
-define mossbit = Character("", image="mossbit_side", callback=callbackHarsh)
+define mossbit = Character("", image="mossbit_side", callback=callbackLower)
 
 image side mossbit_side neutral = "raw assets/Chapter 2/Characters/Mossbit/Portraits/mossbit-portrait-default.png"
 image side mossbit_side suprised = "raw assets/Chapter 2/Characters/Mossbit/Portraits/mossbit-portrait-suprised.png"
@@ -905,7 +905,7 @@ image mossbit walk left:
 
 
 #FLINT ASSETS
-define flint = Character("", image="flint_side", callback=callbackHarsh)
+define flint = Character("", image="flint_side", callback=callbackLower)
 
 image side flint_side neutral = "raw assets/Chapter 2/Characters/Flint/Portraits/flint-portrait-default.png"
 image side flint_side smug = "raw assets/Chapter 2/Characters/Flint/Portraits/flint-portrait-smug.png"
