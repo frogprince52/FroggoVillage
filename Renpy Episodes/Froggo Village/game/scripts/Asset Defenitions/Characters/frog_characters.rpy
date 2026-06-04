@@ -737,9 +737,9 @@ image elder serious = "elder front static"
 image elder thinking = "elder front static"
 
 #FRONT IMAGE (STATIC)
-image elder front static = ""
-image elder right static = ""
-image elder left static = ""
+image elder front static = "raw assets/Chapter 2/Characters/Elder Croakus/elder-idle-front.png"
+image elder right static = "raw assets/Chapter 2/Characters/Elder Croakus/elder-right-static.png"
+image elder left static = "raw assets/Chapter 2/Characters/Elder Croakus/elder-left-static.png"
 
 #WALKING ANIMATIONS
 image elder walk back:
@@ -822,14 +822,13 @@ image side mossbit_side neutral = "raw assets/Chapter 2/Characters/Mossbit/Portr
 image side mossbit_side suprised = "raw assets/Chapter 2/Characters/Mossbit/Portraits/mossbit-portrait-suprised.png"
 image side mossbit_side thinking = "raw assets/Chapter 2/Characters/Mossbit/Portraits/mossbit-portrait-thinking.png"
 
-image mossbit neutral = "mossbit front static"
-image mossbit serious = "mossbit front static"
-image mossbit thinking = "mossbit front static"
+image mossbit neutral = "mossbit right static"
+image mossbit serious = "mossbit right static"
+image mossbit thinking = "mossbit right static"
 
 #FRONT IMAGE
-image mossbit front static = ""
-image mossbit right static = ""
-image mossbit left static = ""
+image mossbit right static = "raw assets/Chapter 2/Characters/Mossbit/mossbit-right-static.png"
+image mossbit left static = "raw assets/Chapter 2/Characters/Mossbit/mossbit-left-static.png"
 
 #WALKING ANIMATIONS
 image mossbit walk back:
@@ -917,6 +916,9 @@ image flint smug = "flint left static"
 #FRONT IMAGE
 image flint left static = "raw assets/Chapter 2/Characters/Flint/flint-left-static.png"
 
-#BACKGROUND FROGGOS
+#BACKGROUND FROGGO CROWD
 image froggo_crowd_front = "raw assets/Chapter 2/Characters/Backgrounds Characters/froggo-crowd-front.png"
 image froggo_crowd_back = "raw assets/Chapter 2/Characters/Backgrounds Characters/froggo-crowd-back.png"
+
+#FORGGERT
+image froggert_front = "raw assets/Chapter 2/Characters/Backgrounds Characters/froggert-front.png"
