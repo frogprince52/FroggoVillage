@@ -724,3 +724,199 @@ image spotty walk left:
     0.15
     
     repeat
+
+#ELDER CROAKUS ASSETS
+define elder = Character("", image="elder_side", callback=callbackHarsh)
+
+image side elder_side neutral = "raw assets/Chapter 2/Characters/Elder Croakus/Portraits/elder-portrait-default.png"
+image side elder_side serious = "raw assets/Chapter 2/Characters/Elder Croakus/Portraits/elder-portrait-serious.png"
+image side elder_side thinking = "raw assets/Chapter 2/Characters/Elder Croakus/Portraits/elder-portrait-thinking.png"
+
+image elder neutral = "elder front static"
+image elder serious = "elder front static"
+image elder thinking = "elder front static"
+
+#FRONT IMAGE (STATIC)
+image elder front static = ""
+image elder right static = ""
+image elder left static = ""
+
+#WALKING ANIMATIONS
+image elder walk back:
+    "raw assets/Chapter 2/Characters/Elder Croakus/Walking Animations/elder-sprite-back-walk.png"
+    
+    # Frame 1
+    crop (0, 0, 192, 192)
+    0.15 # Time to show this frame
+    
+    # Frame 2: Move x over by the width of one frame
+    crop (192, 0, 192,  192)
+    0.15
+    
+    # Frame 3: Move x over again
+    crop (384, 0, 192,  192)
+    0.15
+    
+    # Frame 4
+    crop (576, 0, 192,  192)
+    0.15
+    # Frame 5
+    crop (768, 0, 192,  192)
+    0.15
+    
+    repeat
+
+image elder walk right:
+    "raw assets/Chapter 2/Characters/Elder Croakus/Walking Animations/elder-right-walk.png"
+    
+    # Frame 1
+    crop (0, 0, 192, 192)
+    0.15 # Time to show this frame
+    
+    # Frame 2: Move x over by the width of one frame
+    crop (192, 0, 192,  192)
+    0.15
+    
+    # Frame 3: Move x over again
+    crop (384, 0, 192,  192)
+    0.15
+    
+    # Frame 4
+    crop (576, 0, 192,  192)
+    0.15
+    # Frame 5
+    crop (768, 0, 192,  192)
+    0.15
+    
+    repeat
+
+image elder walk left:
+    "raw assets/Chapter 2/Characters/Elder Croakus/Walking Animations/elder-left-walk.png"
+    
+    # Frame 1
+    crop (0, 0, 192, 192)
+    0.15 # Time to show this frame
+    
+    # Frame 2: Move x over by the width of one frame
+    crop (192, 0, 192,  192)
+    0.15
+    
+    # Frame 3: Move x over again
+    crop (384, 0, 192,  192)
+    0.15
+    
+    # Frame 4
+    crop (576, 0, 192,  192)
+    0.15
+    # Frame 5
+    crop (768, 0, 192,  192)
+    0.15
+    
+    repeat
+
+
+#MOSSBIT ASSETS
+define mossbit = Character("", image="mossbit_side", callback=callbackHarsh)
+
+image side mossbit_side neutral = "raw assets/Chapter 2/Characters/Mossbit/Portraits/mossbit-portrait-default.png"
+image side mossbit_side suprised = "raw assets/Chapter 2/Characters/Mossbit/Portraits/mossbit-portrait-suprised.png"
+image side mossbit_side thinking = "raw assets/Chapter 2/Characters/Mossbit/Portraits/mossbit-portrait-thinking.png"
+
+image mossbit neutral = "mossbit front static"
+image mossbit serious = "mossbit front static"
+image mossbit thinking = "mossbit front static"
+
+#FRONT IMAGE
+image mossbit front static = ""
+image mossbit right static = ""
+image mossbit left static = ""
+
+#WALKING ANIMATIONS
+image mossbit walk back:
+    "raw assets/Chapter 2/Characters/Mossbit/Walking Animations/mossbit-sprite-back-walk.png"
+    
+    # Frame 1
+    crop (0, 0, 192, 192)
+    0.15 # Time to show this frame
+    
+    # Frame 2: Move x over by the width of one frame
+    crop (192, 0, 192,  192)
+    0.15
+    
+    # Frame 3: Move x over again
+    crop (384, 0, 192,  192)
+    0.15
+    
+    # Frame 4
+    crop (576, 0, 192,  192)
+    0.15
+    # Frame 5
+    crop (768, 0, 192,  192)
+    0.15
+    
+    repeat
+
+image mossbit walk right:
+    "raw assets/Chapter 2/Characters/Mossbit/Walking Animations/mossbit-right-walk.png"
+    
+    # Frame 1
+    crop (0, 0, 192, 192)
+    0.15 # Time to show this frame
+    
+    # Frame 2: Move x over by the width of one frame
+    crop (192, 0, 192,  192)
+    0.15
+    
+    # Frame 3: Move x over again
+    crop (384, 0, 192,  192)
+    0.15
+    
+    # Frame 4
+    crop (576, 0, 192,  192)
+    0.15
+    # Frame 5
+    crop (768, 0, 192,  192)
+    0.15
+    
+    repeat
+
+image mossbit walk left:
+    "raw assets/Chapter 2/Characters/Mossbit/Walking Animations/mossbit-left-walk.png"
+    
+    # Frame 1
+    crop (0, 0, 192, 192)
+    0.15 # Time to show this frame
+    
+    # Frame 2: Move x over by the width of one frame
+    crop (192, 0, 192,  192)
+    0.15
+    
+    # Frame 3: Move x over again
+    crop (384, 0, 192,  192)
+    0.15
+    
+    # Frame 4
+    crop (576, 0, 192,  192)
+    0.15
+    # Frame 5
+    crop (768, 0, 192,  192)
+    0.15
+    
+    repeat
+
+
+#FLINT ASSETS
+define flint = Character("", image="flint_side", callback=callbackHarsh)
+
+image side flint_side neutral = "raw assets/Chapter 2/Characters/Flint/Portraits/flint-portrait-default.png"
+image side flint_side smug = "raw assets/Chapter 2/Characters/Flint/Portraits/flint-portrait-smug.png"
+
+image flint neutral = "flint left static"
+image flint smug = "flint left static"
+
+#FRONT IMAGE
+image flint left static = "raw assets/Chapter 2/Characters/Flint/flint-left-static.png"
+
+#BACKGROUND FROGGOS
+image froggo_crowd_front = "raw assets/Chapter 2/Characters/Backgrounds Characters/froggo-crowd-front.png"
+image froggo_crowd_back = "raw assets/Chapter 2/Characters/Backgrounds Characters/froggo-crowd-back.png"
