@@ -499,3 +499,228 @@ image pebble walk left:
     0.15
     
     repeat
+
+
+#SPOTTY DEFENITIONS
+define spotty = Character("", image="spotty_side", callback=callbackSoft)
+
+image side spotty_side neutral = "raw assets/Chapter 2/Characters/Spotty/Portraits/spotty-portrait-default.png"
+image side spotty_side happy = "raw assets/Chapter 2/Characters/Spotty/Portraits/spotty-portrait-happy.png"
+image side spotty_side thinking = "raw assets/Chapter 2/Characters/Spotty/Portraits/spotty-portrait-thinking.png"
+image side spotty_side sad = "raw assets/Chapter 2/Characters/Spotty/Portraits/spotty-portrait-sad.png"
+
+image spotty neutral = "spotty idle front"
+image spotty happy = "spotty idle front"
+image spotty thinking = "spotty idle front"
+image spotty sad = "spotty idle front"
+
+#IDLE ANIMATIONS
+image spotty idle front:
+    "raw assets/Chapter 2/Characters/Spotty/Idle Animations/spotty-idle-front.png" # The file path
+    
+    # Frame 1: (x-start, y-start, width, height)
+    crop (0, 0, 192, 192)
+    0.25 # Time to show this frame
+    
+    # Frame 2: Move x over by the width of one frame
+    crop (192, 0, 192,  192)
+    0.25
+    
+    # Frame 3: Move x over again
+    crop (384, 0, 192,  192)
+    0.25
+    
+    # Frame 4
+    crop (576, 0, 192,  192)
+    0.25
+    # Frame 5
+    crop (768, 0, 192,  192)
+    0.25
+
+    # Frame 6
+    crop (960, 0, 192,  192)
+    0.25
+    
+    repeat # Loops the animation
+
+image spotty idle back:
+    "raw assets/Chapter 2/Characters/Spotty/Idle Animations/spotty-idle-back.png"
+    
+    # Frame 1: (x-start, y-start, width, height)
+    crop (0, 0, 192, 192)
+    0.25 # Time to show this frame
+    
+    # Frame 2: Move x over by the width of one frame
+    crop (192, 0, 192,  192)
+    0.25
+    
+    # Frame 3: Move x over again
+    crop (384, 0, 192,  192)
+    0.25
+    
+    # Frame 4
+    crop (576, 0, 192,  192)
+    0.25
+    # Frame 5
+    crop (768, 0, 192,  192)
+    0.25
+
+    # Frame 6
+    crop (960, 0, 192,  192)
+    0.25
+    
+    repeat # Loops the animation
+
+image spotty idle right:
+    "raw assets/Chapter 2/Characters/Spotty/Idle Animations/spotty-idle-right.png"
+    
+    # Frame 1: (x-start, y-start, width, height)
+    crop (0, 0, 192, 192)
+    0.25 # Time to show this frame
+    
+    # Frame 2: Move x over by the width of one frame
+    crop (192, 0, 192,  192)
+    0.25
+    
+    # Frame 3: Move x over again
+    crop (384, 0, 192,  192)
+    0.25
+    
+    # Frame 4
+    crop (576, 0, 192,  192)
+    0.25
+    # Frame 5
+    crop (768, 0, 192,  192)
+    0.25
+
+    # Frame 6
+    crop (960, 0, 192,  192)
+    0.25
+    
+    repeat
+
+image spotty idle left:
+    "raw assets/Chapter 2/Characters/Spotty/Idle Animations/spotty-idle-left.png"
+    
+    # Frame 1: (x-start, y-start, width, height)
+    crop (0, 0, 192, 192)
+    0.25 # Time to show this frame
+    
+    # Frame 2: Move x over by the width of one frame
+    crop (192, 0, 192,  192)
+    0.25
+    
+    # Frame 3: Move x over again
+    crop (384, 0, 192,  192)
+    0.25
+    
+    # Frame 4
+    crop (576, 0, 192,  192)
+    0.25
+    # Frame 5
+    crop (768, 0, 192,  192)
+    0.25
+
+    # Frame 6
+    crop (960, 0, 192,  192)
+    0.25
+    
+    repeat
+
+#WALKING ANIMATIONS
+
+image spotty walk front:
+    "raw assets/Chapter 2/Characters/Spotty/Walk Animations/spotty-sprite-front-walk.png"
+    
+    # Frame 1
+    crop (0, 0, 192, 192)
+    0.15 # Time to show this frame
+    
+    # Frame 2: Move x over by the width of one frame
+    crop (192, 0, 192,  192)
+    0.15
+    
+    # Frame 3: Move x over again
+    crop (384, 0, 192,  192)
+    0.15
+    
+    # Frame 4
+    crop (576, 0, 192,  192)
+    0.15
+    # Frame 5
+    crop (768, 0, 192,  192)
+    0.15
+    
+    repeat
+
+image spotty walk back:
+    "raw assets/Chapter 2/Characters/Spotty/Walk Animations/spotty-sprite-back-walk.png"
+    
+    # Frame 1
+    crop (0, 0, 192, 192)
+    0.15 # Time to show this frame
+    
+    # Frame 2: Move x over by the width of one frame
+    crop (192, 0, 192,  192)
+    0.15
+    
+    # Frame 3: Move x over again
+    crop (384, 0, 192,  192)
+    0.15
+    
+    # Frame 4
+    crop (576, 0, 192,  192)
+    0.15
+    # Frame 5
+    crop (768, 0, 192,  192)
+    0.15
+    
+    repeat
+
+image spotty walk right:
+    "raw assets/Chapter 2/Characters/Spotty/Walk Animations/spotty-right-walk.png"
+    
+    # Frame 1
+    crop (0, 0, 192, 192)
+    0.15 # Time to show this frame
+    
+    # Frame 2: Move x over by the width of one frame
+    crop (192, 0, 192,  192)
+    0.15
+    
+    # Frame 3: Move x over again
+    crop (384, 0, 192,  192)
+    0.15
+    
+    # Frame 4
+    crop (576, 0, 192,  192)
+    0.15
+    # Frame 5
+    crop (768, 0, 192,  192)
+    0.15
+    
+    repeat
+
+image spotty walk left:
+    "raw assets/Chapter 2/Characters/Spotty/Walk Animations/spotty-left-walk.png"
+    
+    # Frame 1
+    crop (0, 0, 192, 192)
+    0.15 # Time to show this frame
+    
+    # Frame 2: Move x over by the width of one frame
+    crop (192, 0, 192,  192)
+    0.15
+    
+    # Frame 3: Move x over again
+    crop (384, 0, 192,  192)
+    0.15
+    
+    # Frame 4
+    crop (576, 0, 192,  192)
+    0.15
+    # Frame 5
+    crop (768, 0, 192,  192)
+    0.15
+    
+    repeat
