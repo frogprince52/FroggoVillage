@@ -3,10 +3,16 @@
 
 label start:
 
-#CHAPTER 2 - Croaky Caves
+#BATCH 1
 
-#Scene 1 - Hoppo's Hut
-call hopposHut
+#1. Froggo Street
+#call froggoStreet
+
+#2. Mine 1-1
+#call Mine_1_1
+
+#3. Mine 1-3 (Second Level Entrance)
+call Second_level_entrance
 
 
 return

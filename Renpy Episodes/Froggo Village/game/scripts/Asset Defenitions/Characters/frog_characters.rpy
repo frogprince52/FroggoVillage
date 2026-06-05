@@ -52,10 +52,10 @@ define hoppo = Character("", image="hoppo_side", callback=callbackMedium)
 
 # Define the actual side image
 # The naming convention 'side [tag] [attribute]' is vital
-image side hoppo_side neutral = "raw assets/Chapter 2/Characters/Hoppo/Portraits/hoppo-portrait-default.png"
-image side hoppo_side happy = "raw assets/Chapter 2/Characters/Hoppo/Portraits/hoppo-portrait-happy.png"
-image side hoppo_side thinking = "raw assets/Chapter 2/Characters/Hoppo/Portraits/hoppo-portrait-thinking.png"
-image side hoppo_side sad = "raw assets/Chapter 2/Characters/Hoppo/Portraits/hoppo-portrait-sad.png"
+image side hoppo_side neutral = "images/Chapter_2/Characters/Hoppo/Portraits/hoppo-portrait-default.png"
+image side hoppo_side happy = "images/Chapter_2/Characters/Hoppo/Portraits/hoppo-portrait-happy.png"
+image side hoppo_side thinking = "images/Chapter_2/Characters/Hoppo/Portraits/hoppo-portrait-thinking.png"
+image side hoppo_side sad = "images/Chapter_2/Characters/Hoppo/Portraits/hoppo-portrait-sad.png"
 
 #Clarifying relationship
 image hoppo neutral = "hoppo idle front"
@@ -65,7 +65,7 @@ image hoppo sad = "hoppo idle front"
 
 #IDLE ANIMATIONS
 image hoppo idle front:
-    "raw assets/Chapter 2/Characters/Hoppo/Idle Animations/hoppo-idle-front.png" # The file path
+    "images/Chapter_2/Characters/Hoppo/Idle Animations/hoppo-idle-front.png" # The file path
     
     # Frame 1: (x-start, y-start, width, height)
     crop (0, 0, 192, 192)
@@ -93,7 +93,7 @@ image hoppo idle front:
     repeat # Loops the animation
 
 image hoppo idle back:
-    "raw assets/Chapter 2/Characters/Hoppo/Idle Animations/hoppo-idle-back.png"
+    "images/Chapter_2/Characters/Hoppo/Idle Animations/hoppo-idle-back.png"
     
     # Frame 1: (x-start, y-start, width, height)
     crop (0, 0, 192, 192)
@@ -121,7 +121,7 @@ image hoppo idle back:
     repeat # Loops the animation
 
 image hoppo idle right:
-    "raw assets/Chapter 2/Characters/Hoppo/Idle Animations/froggo-idle-right.png"
+    "images/Chapter_2/Characters/Hoppo/Idle Animations/froggo-idle-right.png"
     
     # Frame 1: (x-start, y-start, width, height)
     crop (0, 0, 192, 192)
@@ -149,7 +149,7 @@ image hoppo idle right:
     repeat
 
 image hoppo idle left:
-    "raw assets/Chapter 2/Characters/Hoppo/Idle Animations/froggo-idle-left.png"
+    "images/Chapter_2/Characters/Hoppo/Idle Animations/froggo-idle-left.png"
     
     # Frame 1: (x-start, y-start, width, height)
     crop (0, 0, 192, 192)
@@ -179,7 +179,7 @@ image hoppo idle left:
 #WALKING ANIMATIONS
 
 image hoppo walk front:
-    "raw assets/Chapter 2/Characters/Hoppo/Walk Animations/froggo-sprite-front-walk.png"
+    "images/Chapter_2/Characters/Hoppo/Walk Animations/froggo-sprite-front-walk.png"
     
     # Frame 1
     crop (0, 0, 192, 192)
@@ -203,7 +203,7 @@ image hoppo walk front:
     repeat
 
 image hoppo walk back:
-    "raw assets/Chapter 2/Characters/Hoppo/Walk Animations/froggo-sprite-back-walk.png"
+    "images/Chapter_2/Characters/Hoppo/Walk Animations/froggo-sprite-back-walk.png"
     
     # Frame 1
     crop (0, 0, 192, 192)
@@ -227,7 +227,7 @@ image hoppo walk back:
     repeat
 
 image hoppo walk right:
-    "raw assets/Chapter 2/Characters/Hoppo/Walk Animations/froggo-right-walk.png"
+    "images/Chapter_2/Characters/Hoppo/Walk Animations/froggo-right-walk.png"
     
     # Frame 1
     crop (0, 0, 192, 192)
@@ -251,7 +251,7 @@ image hoppo walk right:
     repeat
 
 image hoppo walk left:
-    "raw assets/Chapter 2/Characters/Hoppo/Walk Animations/froggo-left-walk.png"
+    "images/Chapter_2/Characters/Hoppo/Walk Animations/froggo-left-walk.png"
     
     # Frame 1
     crop (0, 0, 192, 192)
@@ -279,10 +279,10 @@ image hoppo walk left:
 #PEBBLE DEFENITIONS
 define pebble = Character("", image="pebble_side", callback=callbackLower)
 
-image side pebble_side neutral = "raw assets/Chapter 2/Characters/Pebble/Portraits/pebble-portrait-default.png"
-image side pebble_side happy = "raw assets/Chapter 2/Characters/Pebble/Portraits/pebble-portrait-happy.png"
-image side pebble_side thinking = "raw assets/Chapter 2/Characters/Pebble/Portraits/pebble-portrait-thinking.png"
-image side pebbel_side sad = "raw assets/Chapter 2/Characters/Pebble/Portraits/pebble-portrait-sad.png"
+image side pebble_side neutral = "images/Chapter_2/Characters/Pebble/Portraits/pebble-portrait-default.png"
+image side pebble_side happy = "images/Chapter_2/Characters/Pebble/Portraits/pebble-portrait-happy.png"
+image side pebble_side thinking = "images/Chapter_2/Characters/Pebble/Portraits/pebble-portrait-thinking.png"
+image side pebbel_side sad = "images/Chapter_2/Characters/Pebble/Portraits/pebble-portrait-sad.png"
 
 image pebble neutral = "pebble idle front"
 image pebble happy = "pebble idle front"
@@ -291,7 +291,7 @@ image pebble sad = "pebble idle front"
 
 #IDLE ANIMATIONS
 image pebble idle front:
-    "raw assets/Chapter 2/Characters/Pebble/Idle Animations/pebble-idle-front.png" # The file path
+    "images/Chapter_2/Characters/Pebble/Idle Animations/pebble-idle-front.png" # The file path
     
     # Frame 1: (x-start, y-start, width, height)
     crop (0, 0, 192, 192)
@@ -319,7 +319,7 @@ image pebble idle front:
     repeat # Loops the animation
 
 image pebble idle back:
-    "raw assets/Chapter 2/Characters/Pebble/Idle Animations/pebble-idle-back.png"
+    "images/Chapter_2/Characters/Pebble/Idle Animations/pebble-idle-back.png"
     
     # Frame 1: (x-start, y-start, width, height)
     crop (0, 0, 192, 192)
@@ -347,7 +347,7 @@ image pebble idle back:
     repeat # Loops the animation
 
 image pebble idle right:
-    "raw assets/Chapter 2/Characters/Pebble/Idle Animations/pebble-idle-right.png"
+    "images/Chapter_2/Characters/Pebble/Idle Animations/pebble-idle-right.png"
     
     # Frame 1: (x-start, y-start, width, height)
     crop (0, 0, 192, 192)
@@ -375,7 +375,7 @@ image pebble idle right:
     repeat
 
 image pebble idle left:
-    "raw assets/Chapter 2/Characters/Pebble/Idle Animations/pebble-idle-left.png"
+    "images/Chapter_2/Characters/Pebble/Idle Animations/pebble-idle-left.png"
     
     # Frame 1: (x-start, y-start, width, height)
     crop (0, 0, 192, 192)
@@ -405,7 +405,7 @@ image pebble idle left:
 #WALKING ANIMATIONS
 
 image pebble walk front:
-    "raw assets/Chapter 2/Characters/Pebble/Walking Animations/pebble-sprite-front-walk.png"
+    "images/Chapter_2/Characters/Pebble/Walking Animations/pebble-sprite-front-walk.png"
     
     # Frame 1
     crop (0, 0, 192, 192)
@@ -429,7 +429,7 @@ image pebble walk front:
     repeat
 
 image pebble walk back:
-    "raw assets/Chapter 2/Characters/Pebble/Walking Animations/pebble-sprite-back-walk.png"
+    "images/Chapter_2/Characters/Pebble/Walking Animations/pebble-sprite-back-walk.png"
     
     # Frame 1
     crop (0, 0, 192, 192)
@@ -453,7 +453,7 @@ image pebble walk back:
     repeat
 
 image pebble walk right:
-    "raw assets/Chapter 2/Characters/Pebble/Walking Animations/pebble-right-walk.png"
+    "images/Chapter_2/Characters/Pebble/Walking Animations/pebble-right-walk.png"
     
     # Frame 1
     crop (0, 0, 192, 192)
@@ -477,7 +477,7 @@ image pebble walk right:
     repeat
 
 image pebble walk left:
-    "rraw assets/Chapter 2/Characters/Pebble/Walking Animations/pebble-left-walk.png"
+    "rimages/Chapter_2/Characters/Pebble/Walking Animations/pebble-left-walk.png"
     
     # Frame 1
     crop (0, 0, 192, 192)
@@ -504,10 +504,10 @@ image pebble walk left:
 #SPOTTY DEFENITIONS
 define spotty = Character("", image="spotty_side", callback=callbackSoft)
 
-image side spotty_side neutral = "raw assets/Chapter 2/Characters/Spotty/Portraits/spotty-portrait-default.png"
-image side spotty_side happy = "raw assets/Chapter 2/Characters/Spotty/Portraits/spotty-portrait-happy.png"
-image side spotty_side thinking = "raw assets/Chapter 2/Characters/Spotty/Portraits/spotty-portrait-thinking.png"
-image side spotty_side sad = "raw assets/Chapter 2/Characters/Spotty/Portraits/spotty-portrait-sad.png"
+image side spotty_side neutral = "images/Chapter_2/Characters/Spotty/Portraits/spotty-portrait-default.png"
+image side spotty_side happy = "images/Chapter_2/Characters/Spotty/Portraits/spotty-portrait-happy.png"
+image side spotty_side thinking = "images/Chapter_2/Characters/Spotty/Portraits/spotty-portrait-thinking.png"
+image side spotty_side sad = "images/Chapter_2/Characters/Spotty/Portraits/spotty-portrait-sad.png"
 
 image spotty neutral = "spotty idle front"
 image spotty happy = "spotty idle front"
@@ -516,7 +516,7 @@ image spotty sad = "spotty idle front"
 
 #IDLE ANIMATIONS
 image spotty idle front:
-    "raw assets/Chapter 2/Characters/Spotty/Idle Animations/spotty-idle-front.png" # The file path
+    "images/Chapter_2/Characters/Spotty/Idle Animations/spotty-idle-front.png" # The file path
     
     # Frame 1: (x-start, y-start, width, height)
     crop (0, 0, 192, 192)
@@ -544,7 +544,7 @@ image spotty idle front:
     repeat # Loops the animation
 
 image spotty idle back:
-    "raw assets/Chapter 2/Characters/Spotty/Idle Animations/spotty-idle-back.png"
+    "images/Chapter_2/Characters/Spotty/Idle Animations/spotty-idle-back.png"
     
     # Frame 1: (x-start, y-start, width, height)
     crop (0, 0, 192, 192)
@@ -572,7 +572,7 @@ image spotty idle back:
     repeat # Loops the animation
 
 image spotty idle right:
-    "raw assets/Chapter 2/Characters/Spotty/Idle Animations/spotty-idle-right.png"
+    "images/Chapter_2/Characters/Spotty/Idle Animations/spotty-idle-right.png"
     
     # Frame 1: (x-start, y-start, width, height)
     crop (0, 0, 192, 192)
@@ -600,7 +600,7 @@ image spotty idle right:
     repeat
 
 image spotty idle left:
-    "raw assets/Chapter 2/Characters/Spotty/Idle Animations/spotty-idle-left.png"
+    "images/Chapter_2/Characters/Spotty/Idle Animations/spotty-idle-left.png"
     
     # Frame 1: (x-start, y-start, width, height)
     crop (0, 0, 192, 192)
@@ -630,7 +630,7 @@ image spotty idle left:
 #WALKING ANIMATIONS
 
 image spotty walk front:
-    "raw assets/Chapter 2/Characters/Spotty/Walk Animations/spotty-sprite-front-walk.png"
+    "images/Chapter_2/Characters/Spotty/Walk Animations/spotty-sprite-front-walk.png"
     
     # Frame 1
     crop (0, 0, 192, 192)
@@ -654,7 +654,7 @@ image spotty walk front:
     repeat
 
 image spotty walk back:
-    "raw assets/Chapter 2/Characters/Spotty/Walk Animations/spotty-sprite-back-walk.png"
+    "images/Chapter_2/Characters/Spotty/Walk Animations/spotty-sprite-back-walk.png"
     
     # Frame 1
     crop (0, 0, 192, 192)
@@ -678,7 +678,7 @@ image spotty walk back:
     repeat
 
 image spotty walk right:
-    "raw assets/Chapter 2/Characters/Spotty/Walk Animations/spotty-right-walk.png"
+    "images/Chapter_2/Characters/Spotty/Walk Animations/spotty-right-walk.png"
     
     # Frame 1
     crop (0, 0, 192, 192)
@@ -702,7 +702,7 @@ image spotty walk right:
     repeat
 
 image spotty walk left:
-    "raw assets/Chapter 2/Characters/Spotty/Walk Animations/spotty-left-walk.png"
+    "images/Chapter_2/Characters/Spotty/Walk Animations/spotty-left-walk.png"
     
     # Frame 1
     crop (0, 0, 192, 192)
@@ -728,22 +728,22 @@ image spotty walk left:
 #ELDER CROAKUS ASSETS
 define elder = Character("", image="elder_side", callback=callbackMedium)
 
-image side elder_side neutral = "raw assets/Chapter 2/Characters/Elder Croakus/Portraits/elder-portrait-default.png"
-image side elder_side serious = "raw assets/Chapter 2/Characters/Elder Croakus/Portraits/elder-portrait-serious.png"
-image side elder_side thinking = "raw assets/Chapter 2/Characters/Elder Croakus/Portraits/elder-portrait-thinking.png"
+image side elder_side neutral = "images/Chapter_2/Characters/Elder Croakus/Portraits/elder-portrait-default.png"
+image side elder_side serious = "images/Chapter_2/Characters/Elder Croakus/Portraits/elder-portrait-serious.png"
+image side elder_side thinking = "images/Chapter_2/Characters/Elder Croakus/Portraits/elder-portrait-thinking.png"
 
 image elder neutral = "elder front static"
 image elder serious = "elder front static"
 image elder thinking = "elder front static"
 
 #FRONT IMAGE (STATIC)
-image elder front static = "raw assets/Chapter 2/Characters/Elder Croakus/elder-idle-front.png"
-image elder right static = "raw assets/Chapter 2/Characters/Elder Croakus/elder-right-static.png"
-image elder left static = "raw assets/Chapter 2/Characters/Elder Croakus/elder-left-static.png"
+image elder front static = "images/Chapter_2/Characters/Elder Croakus/elder-idle-front.png"
+image elder right static = "images/Chapter_2/Characters/Elder Croakus/elder-right-static.png"
+image elder left static = "images/Chapter_2/Characters/Elder Croakus/elder-left-static.png"
 
 #WALKING ANIMATIONS
 image elder walk back:
-    "raw assets/Chapter 2/Characters/Elder Croakus/Walking Animations/elder-sprite-back-walk.png"
+    "images/Chapter_2/Characters/Elder Croakus/Walking Animations/elder-sprite-back-walk.png"
     
     # Frame 1
     crop (0, 0, 192, 192)
@@ -767,7 +767,7 @@ image elder walk back:
     repeat
 
 image elder walk right:
-    "raw assets/Chapter 2/Characters/Elder Croakus/Walking Animations/elder-right-walk.png"
+    "images/Chapter_2/Characters/Elder Croakus/Walking Animations/elder-right-walk.png"
     
     # Frame 1
     crop (0, 0, 192, 192)
@@ -791,7 +791,7 @@ image elder walk right:
     repeat
 
 image elder walk left:
-    "raw assets/Chapter 2/Characters/Elder Croakus/Walking Animations/elder-left-walk.png"
+    "images/Chapter_2/Characters/Elder Croakus/Walking Animations/elder-left-walk.png"
     
     # Frame 1
     crop (0, 0, 192, 192)
@@ -818,21 +818,21 @@ image elder walk left:
 #MOSSBIT ASSETS
 define mossbit = Character("", image="mossbit_side", callback=callbackLower)
 
-image side mossbit_side neutral = "raw assets/Chapter 2/Characters/Mossbit/Portraits/mossbit-portrait-default.png"
-image side mossbit_side suprised = "raw assets/Chapter 2/Characters/Mossbit/Portraits/mossbit-portrait-suprised.png"
-image side mossbit_side thinking = "raw assets/Chapter 2/Characters/Mossbit/Portraits/mossbit-portrait-thinking.png"
+image side mossbit_side neutral = "images/Chapter_2/Characters/Mossbit/Portraits/mossbit-portrait-default.png"
+image side mossbit_side suprised = "images/Chapter_2/Characters/Mossbit/Portraits/mossbit-portrait-suprised.png"
+image side mossbit_side thinking = "images/Chapter_2/Characters/Mossbit/Portraits/mossbit-portrait-thinking.png"
 
 image mossbit neutral = "mossbit right static"
 image mossbit serious = "mossbit right static"
 image mossbit thinking = "mossbit right static"
 
 #FRONT IMAGE
-image mossbit right static = "raw assets/Chapter 2/Characters/Mossbit/mossbit-right-static.png"
-image mossbit left static = "raw assets/Chapter 2/Characters/Mossbit/mossbit-left-static.png"
+image mossbit right static = "images/Chapter_2/Characters/Mossbit/mossbit-right-static.png"
+image mossbit left static = "images/Chapter_2/Characters/Mossbit/mossbit-left-static.png"
 
 #WALKING ANIMATIONS
 image mossbit walk back:
-    "raw assets/Chapter 2/Characters/Mossbit/Walking Animations/mossbit-sprite-back-walk.png"
+    "images/Chapter_2/Characters/Mossbit/Walking Animations/mossbit-sprite-back-walk.png"
     
     # Frame 1
     crop (0, 0, 192, 192)
@@ -856,7 +856,7 @@ image mossbit walk back:
     repeat
 
 image mossbit walk right:
-    "raw assets/Chapter 2/Characters/Mossbit/Walking Animations/mossbit-right-walk.png"
+    "images/Chapter_2/Characters/Mossbit/Walking Animations/mossbit-right-walk.png"
     
     # Frame 1
     crop (0, 0, 192, 192)
@@ -880,7 +880,7 @@ image mossbit walk right:
     repeat
 
 image mossbit walk left:
-    "raw assets/Chapter 2/Characters/Mossbit/Walking Animations/mossbit-left-walk.png"
+    "images/Chapter_2/Characters/Mossbit/Walking Animations/mossbit-left-walk.png"
     
     # Frame 1
     crop (0, 0, 192, 192)
@@ -907,18 +907,18 @@ image mossbit walk left:
 #FLINT ASSETS
 define flint = Character("", image="flint_side", callback=callbackLower)
 
-image side flint_side neutral = "raw assets/Chapter 2/Characters/Flint/Portraits/flint-portrait-default.png"
-image side flint_side smug = "raw assets/Chapter 2/Characters/Flint/Portraits/flint-portrait-smug.png"
+image side flint_side neutral = "images/Chapter_2/Characters/Flint/Portraits/flint-portrait-default.png"
+image side flint_side smug = "images/Chapter_2/Characters/Flint/Portraits/flint-portrait-smug.png"
 
 image flint neutral = "flint left static"
 image flint smug = "flint left static"
 
 #FRONT IMAGE
-image flint left static = "raw assets/Chapter 2/Characters/Flint/flint-left-static.png"
+image flint left static = "images/Chapter_2/Characters/Flint/flint-left-static.png"
 
 #BACKGROUND FROGGO CROWD
-image froggo_crowd_front = "raw assets/Chapter 2/Characters/Backgrounds Characters/froggo-crowd-front.png"
-image froggo_crowd_back = "raw assets/Chapter 2/Characters/Backgrounds Characters/froggo-crowd-back.png"
+image froggo_crowd_front = "images/Chapter_2/Characters/Backgrounds Characters/froggo-crowd-front.png"
+image froggo_crowd_back = "images/Chapter_2/Characters/Backgrounds Characters/froggo-crowd-back.png"
 
 #FORGGERT
-image froggert_front = "raw assets/Chapter 2/Characters/Backgrounds Characters/froggert-front.png"
+image froggert_front = "images/Chapter_2/Characters/Backgrounds Characters/froggert-front.png"

@@ -2,12 +2,12 @@
 #CHAPTER 2 ASSETS
 
 #HOPPO's HUT Assets
-image mossyMatress = "raw assets/Chapter 2/Scene Assets/Hoppo's Hut/mossy-matress.png"
-image mysteriousPainting = "raw assets/Chapter 2/Scene Assets/Hoppo's Hut/mysterious-painting.png"
-image tallCabinet = "raw assets/Chapter 2/Scene Assets/Hoppo's Hut/tall-cabinet.png"
-image dinoNuggyPile = "raw assets/Chapter 2/Scene Assets/Hoppo's Hut/dino-nuggy-pile.png"
+image mossyMatress = "images/Chapter 2/Scene Assets/Hoppo's Hut/mossy-matress.png"
+image mysteriousPainting = "images/Chapter 2/Scene Assets/Hoppo's Hut/mysterious-painting.png"
+image tallCabinet = "images/Chapter 2/Scene Assets/Hoppo's Hut/tall-cabinet.png"
+image dinoNuggyPile = "images/Chapter 2/Scene Assets/Hoppo's Hut/dino-nuggy-pile.png"
 image lightFlyJar:
-    "raw assets/Chapter 2/Scene Assets/Hoppo's Hut/light-fly-jar.png"
+    "images/Chapter 2/Scene Assets/Hoppo's Hut/light-fly-jar.png"
 
     #FRAME 1
     crop (0, 0, 96, 96)
@@ -28,11 +28,11 @@ image lightFlyJar:
     repeat
 
 #Mine Level 1 Assets
-image chest_open = "raw assets/Chapter 2/Scene Assets/Mine - Level 1/chest-open.png"
-image chest_closed = "raw assets/Chapter 2/Scene Assets/Mine - Level 1/chest-closed.png"
-image torch_off = "raw assets/Chapter 2/Scene Assets/Mine - Level 1/torch-off.png"
+image chest_open = "images/Chapter 2/Scene Assets/Mine - Level 1/chest-open.png"
+image chest_closed = "images/Chapter 2/Scene Assets/Mine - Level 1/chest-closed.png"
+image torch_off = "images/Chapter 2/Scene Assets/Mine - Level 1/torch-off.png"
 image torch_active:
-    "raw assets/Chapter 2/Scene Assets/Mine - Level 1/torch-active.png"
+    "images/Chapter 2/Scene Assets/Mine - Level 1/torch-active.png"
 
     #FRAME 1
     crop (0, 0, 96, 32)
@@ -49,16 +49,16 @@ image torch_active:
     repeat
 
 #Mine Level 2
-image nuggy_geode_full = "raw assets/Chapter 2/Scene Assets/Mine - Level 2/dino-nuggy-geode-full.png"
-image nuggy_geode_half = "raw assets/Chapter 2/Scene Assets/Mine - Level 2/dino-nuggy-geode-half.png"
-image nuggy_geode_depleted = "raw assets/Chapter 2/Scene Assets/Mine - Level 2/dino-nuggy-geode-depleted.png"
-image froggo_rune = "raw assets/Chapter 2/Scene Assets/Mine - Level 2/froggo-rune.png"
-image mined_ledge = "raw assets/Chapter 2/Scene Assets/Mine - Level 2/mined-ledge.png"
+image nuggy_geode_full = "images/Chapter 2/Scene Assets/Mine - Level 2/dino-nuggy-geode-full.png"
+image nuggy_geode_half = "images/Chapter 2/Scene Assets/Mine - Level 2/dino-nuggy-geode-half.png"
+image nuggy_geode_depleted = "images/Chapter 2/Scene Assets/Mine - Level 2/dino-nuggy-geode-depleted.png"
+image froggo_rune = "images/Chapter 2/Scene Assets/Mine - Level 2/froggo-rune.png"
+image mined_ledge = "images/Chapter 2/Scene Assets/Mine - Level 2/mined-ledge.png"
 
 #Froggo Street & Elder Office Assets
-image hawk_banner = "raw assets/Chapter 2/Scene Assets/Froggo Street/hawk-banner.png"
+image hawk_banner = "images/Chapter 2/Scene Assets/Froggo Street/hawk-banner.png"
 image office_candle:
-    "raw assets/Chapter 2/Scene Assets/Elder's Office/candle-light.png"
+    "images/Chapter 2/Scene Assets/Elder's Office/candle-light.png"
 
     #FRAME 1
     crop (0, 0, 128, 32)
