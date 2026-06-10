@@ -282,7 +282,7 @@ define pebble = Character("", image="pebble_side", callback=callbackLower)
 image side pebble_side neutral = "images/Chapter_2/Characters/Pebble/Portraits/pebble-portrait-default.png"
 image side pebble_side happy = "images/Chapter_2/Characters/Pebble/Portraits/pebble-portrait-happy.png"
 image side pebble_side thinking = "images/Chapter_2/Characters/Pebble/Portraits/pebble-portrait-thinking.png"
-image side pebbel_side sad = "images/Chapter_2/Characters/Pebble/Portraits/pebble-portrait-sad.png"
+image side pebble_side sad = "images/Chapter_2/Characters/Pebble/Portraits/pebble-portrait-sad.png"
 
 image pebble neutral = "pebble idle front"
 image pebble happy = "pebble idle front"
