@@ -20,10 +20,10 @@ label start:
 #call level_2_1
 
 #2 Bent Path
-#call bent_path
+call bent_path
 
 #3 Back at the intesection
-call intersection_repeat
+#call intersection_repeat
 
 
 return
