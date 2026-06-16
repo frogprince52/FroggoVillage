@@ -14,4 +14,4 @@ init python:
             renpy.sound.stop()
 
 
-define narrator = Character("", image="", callback=callbackNarrator)
+define narrator = Character(None, what_text_align=0.5, what_xalign=0.5, callback=callbackNarrator)

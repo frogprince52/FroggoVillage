@@ -477,7 +477,7 @@ image pebble walk right:
     repeat
 
 image pebble walk left:
-    "rimages/Chapter_2/Characters/Pebble/Walking Animations/pebble-left-walk.png"
+    "images/Chapter_2/Characters/Pebble/Walking Animations/pebble-left-walk.png"
     
     # Frame 1
     crop (0, 0, 192, 192)
