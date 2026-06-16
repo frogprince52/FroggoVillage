@@ -17,10 +17,10 @@ label start:
 #BATCH 2
 
 #1 Mine 2-1 (Intersection)
-call level_2_1
+#call level_2_1
 
 #2 Bent Path
-#call bent_paths
+call bent_path
 
 #3 Back at the intesection
 #call intersection_repeat
