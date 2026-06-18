@@ -15,6 +15,8 @@ label intersection_repeat:
         yalign 0.54
         zoom 0.55
 
+    pause 1.5
+
     hoppo thinking "Hey Pebble, didn't we already pass this section? {w=2.0}{nw}"
 
     pebble neutral "Shoot, you're right, Hoppo. I guess my memory of the layout isn't as good as I thought. {w=2.3}{nw}"

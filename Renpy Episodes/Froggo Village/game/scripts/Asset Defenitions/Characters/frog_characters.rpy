@@ -494,7 +494,7 @@ image pebble walk left:
     # Frame 4
     crop (576, 0, 192,  192)
     0.15
-    # Frame 5
+    # Frame 5K)
     crop (768, 0, 192,  192)
     0.15
     
@@ -731,6 +731,7 @@ define elder = Character("", image="elder_side", callback=callbackMedium)
 image side elder_side neutral = "images/Chapter_2/Characters/Elder Croakus/Portraits/elder-portrait-default.png"
 image side elder_side serious = "images/Chapter_2/Characters/Elder Croakus/Portraits/elder-portrait-serious.png"
 image side elder_side thinking = "images/Chapter_2/Characters/Elder Croakus/Portraits/elder-portrait-thinking.png"
+image side elder_side closed = "images/Chapter_2/Characters/Elder Croakus/Portraits/elder-portrait-closed.png"
 
 image elder neutral = "elder front static"
 image elder serious = "elder front static"
@@ -829,6 +830,7 @@ image mossbit thinking = "mossbit right static"
 #FRONT IMAGE
 image mossbit right static = "images/Chapter_2/Characters/Mossbit/mossbit-right-static.png"
 image mossbit left static = "images/Chapter_2/Characters/Mossbit/mossbit-left-static.png"
+image mossbit back static = "images/Chapter_2/Characters/Mossbit/mossbit-back-static.png"
 
 #WALKING ANIMATIONS
 image mossbit walk back:
