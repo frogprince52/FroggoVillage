@@ -28,10 +28,10 @@ label start:
 #Batch 3 
 
 #1 Elders Office
-call elders_office
+#call elders_office
 
 #2 Three Paths
-#call three_paths
+call three_paths
 
 #3 2_5 room (Before Spotty Room)
 #call mine_2_5
