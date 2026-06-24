@@ -1,6 +1,6 @@
 
 #BACKGROUNDS FOR Chapter_2
-image bg hopposHut = "images/Chapter_2/Backgrounds/froggo-street.png"
+image bg hopposHut = "images/Chapter_2/Backgrounds/hoppos-hut-final.png"
 image bg froggoStreet = "images/Chapter_2/Backgrounds/froggo-street.png"
 image bg mineStreet = "images/Chapter_2/Backgrounds/mine-street.png"
 image bg level_1_1 = "images/Chapter_2/Backgrounds/Dino Nuggy Mine/Level 1/first_level_1.png"

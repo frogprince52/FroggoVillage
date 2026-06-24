@@ -34,7 +34,7 @@ label start:
 #call three_paths
 
 #3 Hoppos Hut
-call hoppoHut
+call hopposHut
 
 
 # BATCH 4
