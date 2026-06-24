@@ -31,9 +31,17 @@ label start:
 #call elders_office
 
 #2 Three Paths
-call three_paths
+#call three_paths
 
-#3 2_5 room (Before Spotty Room)
+#3 Hoppos Hut
+call hoppoHut
+
+
+# BATCH 4
+
+#1 2_5 room (Before Spotty Room)
 #call mine_2_5
+
+
 
 return

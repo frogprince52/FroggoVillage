@@ -1,7 +1,7 @@
 # FROGGO VILLAGE SCENE 1
 
 
-label hopposHut:
+label hoppoHut:
 
 scene bg hopposHut
 
