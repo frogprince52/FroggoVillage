@@ -34,14 +34,14 @@ label start:
 #call three_paths
 
 #3 Hoppos Hut
-call hopposHut
+#call hopposHut
 
 
 # BATCH 4
 
 #1 2_5 room (Before Spotty Room)
-#call mine_2_5
+call mine_2_5
 
-
+# Froggo Street
 
 return
