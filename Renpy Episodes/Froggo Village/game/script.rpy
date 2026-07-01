@@ -40,8 +40,9 @@ label start:
 # BATCH 4
 
 #1 2_5 room (Before Spotty Room)
-call mine_2_5
+#call mine_2_5
 
 # Froggo Street
+call mine_entrance
 
 return
