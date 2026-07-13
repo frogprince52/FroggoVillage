@@ -46,6 +46,17 @@ label start:
 #call mine_entrance
 
 #Storage room
-call storage_room
+#call storage_room
+
+
+#Batch 5
+
+#1-2 Mine Room
+call mine_1_2 
+
+#Nuggy Geode Room
+
+#Inverted Spotty Room
+
 
 return
