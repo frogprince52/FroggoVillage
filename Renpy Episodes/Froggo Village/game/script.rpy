@@ -52,9 +52,10 @@ label start:
 #Batch 5
 
 #1-2 Mine Room
-call mine_1_2 
+#call mine_1_2 
 
 #Nuggy Geode Room
+call geode_room
 
 #Inverted Spotty Room
 
